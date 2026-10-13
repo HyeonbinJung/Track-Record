@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> ### ✅ This track record is evidenced by Kiwoom Securities' official transaction statements.
+> **이 실적은 키움증권 공식 증명서(종합거래내역)에 의해 증명됩니다.** Every trade, dividend, withdrawal and balance in this report reconciles to the won against the broker-issued documents in [`statements/`](statements/) (Korean originals) · English translations in [`statements (EN)/`](<statements%20(EN)/>).
+
 <p align="center"><img src="assets/tearsheet.svg" width="900" alt="Track record tearsheet: TWR CAGR 34.3%, IRR 32.1%, MOIC 3.67x, growth of 100 versus KOSPI"></p>
 
 <p align="center">
