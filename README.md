@@ -1,90 +1,110 @@
-<div align="center">
+<p align="center"><img src="assets/tearsheet.svg" width="900" alt="Track record tearsheet: TWR CAGR 34.3%, IRR 32.1%, MOIC 3.67x, growth of 100 versus KOSPI"></p>
 
-# 📈 Track Record
+<p align="center">
+<code>PERSONAL ACCOUNT</code> · <code>LONG-ONLY KOREAN EQUITIES</code> · <code>KIWOOM SECURITIES</code> · <code>KRW</code> · <code>OCT 2021 → OCT 2026</code> · <code>AUDITABLE: BROKER STATEMENTS ATTACHED</code>
+</p>
 
-**Five years of real, broker-verified trades — ₩65.9M grew into ₩242.5M of value (3.68×) while ₩85M was taken out along the way.**
+# Track Record — Performance Tearsheet
 
-<img src="https://img.shields.io/badge/IRR-32.1%25%20p.a.-3fb950?style=for-the-badge" height="26">
-<img src="https://img.shields.io/badge/Total%20profit-₩176.6M-2f81f7?style=for-the-badge" height="26">
-<img src="https://img.shields.io/badge/Multiple-3.68x-d29922?style=for-the-badge" height="26">
-<img src="https://img.shields.io/badge/Period-Oct%202021%20→%20Oct%202026-1F2937?style=for-the-badge" height="26">
+> **₩65.9M of starting capital compounded at 34.3% a year (time-weighted) — 19.2% a year ahead of the KOSPI — and turned into ₩241.9M of total value (3.67× MOIC) while ₩85.0M was distributed back out.** Every figure below reconciles to the won against the broker's own statements in [`statements/`](statements/).
 
-<sub>Kiwoom Securities · KRX / KOSDAQ cash equities · every number reconciles to the broker's own statements in <a href="statements/"><code>statements/</code></a></sub>
+## I. Key Figures
 
-[Summary](#-summary) · [By Year](#-by-year) · [By Stock](#-by-stock) · [Open Position](#-open-position) · [Data](#%EF%B8%8F-data) · [Method](#-method)
+| Capital | | Returns | |
+|---|---:|---|---:|
+| Initial capital · 14 Oct 2021 | **₩65.9M** | Total P&amp;L | **₩176.0M** |
+| Distributions (withdrawals) | ₩85.0M | Time-weighted CAGR | **34.3%** |
+| NAV · 12-OCT-2026 | **₩156.9M** | Money-weighted IRR | **32.1%** |
+| ↳ cash / equities | ₩61.9M / ₩95.0M | KOSPI CAGR (same window) | 15.1% |
+| Total value (NAV + distributions) | **₩241.9M** | MOIC · DPI | **3.67x** · 1.29x |
 
-</div>
+## II. Risk &amp; Return Statistics
 
----
+```text
+┌─ PERFORMANCE ──────────────────────────────┬─ RISK ─────────────────────────────────────┐
+│ Time-weighted return (CAGR)          34.3% │ Annualized volatility                33.5% │
+│ Money-weighted return (IRR)          32.1% │ Sharpe ratio (rf 3%)                  0.94 │
+│ Cumulative TWR                       +336% │ Sortino ratio                         2.20 │
+│ KOSPI cumulative, same window        +102% │ Max drawdown                        -32.0% │
+│ Multiple on invested capital         3.67x │ Calmar ratio                          1.07 │
+│ Jensen's alpha vs KOSPI             +22.4% │ Beta / correlation to KOSPI    0.73 / 0.69 │
+│ Positive months                    36 / 61 │ Average equity exposure                74% │
+└────────────────────────────────────────────┴────────────────────────────────────────────┘
+```
 
-## 🎯 Summary
+<sub>Monthly Modified-Dietz returns on month-end NAV (cash + positions at Yahoo Finance closes), geometrically linked. Risk-free rate 3% p.a. Max drawdown trough: 2023-10. Best month 2026-02 (+33.3%), worst 2023-10 (-13.2%).</sub>
 
-| | |
+## III. Calendar-Year Performance
+
+| Year | Account (TWR) | KOSPI | Active return | Realized P&amp;L | Dividends + interest | Turnover |
+|---|---:|---:|---:|---:|---:|---:|
+| **2021** | -2.5% | -1.2% | **-1.3%** | ₩0.0M | ₩0.0M | ₩22.1M |
+| **2022** | +2.5% | -24.9% | **+27.4%** | ₩0.0M | ₩0.8M | ₩18.2M |
+| **2023** | -11.7% | +18.7% | **-30.4%** | -₩4.3M | ₩1.8M | ₩59.2M |
+| **2024** | +74.3% | -9.6% | **+83.9%** | ₩22.8M | ₩0.5M | ₩94.6M |
+| **2025** | +82.7% | +75.6% | **+7.1%** | ₩7.6M | ₩1.5M | ₩90.8M |
+| **2026** YTD | +55.2% | +44.6% | **+10.7%** | ₩122.6M | ₩0.8M | ₩435.0M |
+
+<p align="center"><img src="assets/monthly_returns.svg" alt="Monthly returns heatmap with yearly totals and KOSPI"></p>
+
+## IV. P&amp;L Attribution by Position
+
+| Position | Ticker | Realized | Dividends | Unrealized | Total P&amp;L | Share of P&amp;L |
+|---|---|---:|---:|---:|---:|---:|
+| Samsung Electronics | `005930 KS` | ₩82.1M | ₩1.5M | ₩22.0M | **₩105.5M** | 60.1% |
+| HD Hyundai Heavy Industries | `329180 KS` | ₩61.0M | ₩0.6M | ₩0.0M | **₩61.6M** | 35.1% |
+| Korea Zinc | `010130 KS` | ₩2.7M | ₩2.9M | ₩0.0M | **₩5.6M** | 3.2% |
+| Daehan Shipbuilding | `439260 KS` | ₩2.8M | ₩0.0M | ₩0.0M | **₩2.8M** | 1.6% |
+| Nota | `486990 KQ` | ₩0.1M | ₩0.0M | ₩0.0M | **₩0.1M** | 0.0% |
+| **Total** | | **₩148.7M** | **₩4.9M** | **₩22.0M** | **₩175.6M** | 100% |
+
+<sub>Plus ₩0.4M of interest on idle cash. Realized P&amp;L uses average cost, net of commissions and transaction tax.</sub>
+
+## V. Trading &amp; Execution
+
+```text
+┌─ TRADING ──────────────────────────────────┬─ EXECUTION ────────────────────────────────┐
+│ Closed sell orders                      23 │ Gross turnover                     ₩719.9M │
+│ Winners / losers                    20 / 3 │ Commissions                       ₩105,810 │
+│ Hit rate                               87% │ Securities transaction tax        ₩760,074 │
+│ Profit factor                        12.6x │ All-in cost / turnover             12.0 bp │
+│ Average winner                       ₩8.1M │ Dividend withholding              ₩791,490 │
+│ Average loser                       -₩4.3M │ Buy orders / sell fills            13 / 28 │
+└────────────────────────────────────────────┴────────────────────────────────────────────┘
+```
+
+| Notable trades | Date | Position | P&amp;L | Return on cost |
+|---|---|---|---:|---:|
+| Largest gain | 2026-01-26 | HD Hyundai Heavy Industries | **₩23.5M** | +337% |
+| Largest loss | 2026-06-05 | Daehan Shipbuilding | -₩8.4M | -18% |
+
+> **The defining trade.** 310 shares of **HD Hyundai Heavy Industries** bought at **₩139,800** in July 2023 and scaled out in eight tranches between **₩208,000** and **₩655,000** — ₩61.0M realized on a ₩43.3M position.
+
+## VI. Current Exposure · 12-OCT-2026
+
+| Position | Ticker | Shares | Avg cost | Last | Market value | % of NAV | Unrealized |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Samsung Electronics | `005930 KS` | 400 | ₩182,496 | ₩237,500 | ₩95.0M | 61% | **₩22.0M (+30.1%)** |
+| Cash (KRW) | | | | | ₩61.9M | 39% | |
+
+## VII. Data Room
+
+| File | Description |
 |---|---|
-| **Starting capital** (Oct 2021) | ₩65.9M |
-| **Withdrawn along the way** | ₩85.0M |
-| **Ending equity** (cash ₩61.9M + positions ₩95.6M) | ₩157.5M |
-| **Total profit** | **₩176.6M** |
-| **Return on starting capital** | **268%** · 3.68× |
-| **Money-weighted return (IRR)** | **32.1% per year** over 5.0 years |
+| [`statements/`](statements/) | Kiwoom Securities 종합거래내역 — five annual statements, Oct 2021 → Oct 2026 |
+| [`data/Kiwoom_Transactions.xlsx`](data/Kiwoom_Transactions.xlsx) | Workbook · Summary · By Year · By Stock · Trades with cost basis · Holdings · Cash Flows · Monthly NAV · All Transactions |
+| [`data/transactions.csv`](data/transactions.csv) | All 82 statement lines, machine-readable |
+| [`data/monthly_nav.csv`](data/monthly_nav.csv) | Month-end cash, positions, NAV, flows, TWR and KOSPI series |
 
-| Where the profit came from | |
-|---|---|
-| Realized trading gains (after commissions &amp; tax) | ₩148.7M |
-| Unrealized gain on the open position | ₩22.6M |
-| Dividends (after withholding) | ₩4.9M |
-| Interest on cash | ₩0.4M |
-| Total traded | bought ₩321.7M · sold ₩398.2M · 13 buys / 28 sell fills |
-| Costs | commissions ₩105,810 · transaction tax ₩760,074 · dividend tax ₩791,490 |
+## VIII. Methodology &amp; Disclosures
 
-<p align="center"><img src="assets/profit_by_year.svg" width="880" alt="Profit by year with cumulative line"></p>
+- **Reconciliation.** All 82 broker lines were parsed; the running cash balance matches the statement on every line.
+- **NAV.** Month-end cash plus positions marked at Yahoo Finance closing prices (fills reconcile to closes within ±5%).
+- **Returns.** TWR links monthly Modified-Dietz returns, neutralizing withdrawals; IRR is money-weighted with each withdrawal dated. MOIC = (NAV + distributions) / initial capital; DPI = distributions / initial capital.
+- **Benchmark.** KOSPI price index (^KS11), not total return. Alpha is Jensen's alpha from monthly returns.
+- **Scope.** One cash account; long-only KRW listed equities; no leverage, shorting or derivatives. The account held no positions at the first statement date.
 
-## 📅 By Year
+> [!NOTE]
+> Personal-account results, shown for transparency. Past performance does not guarantee future returns, and nothing here is investment advice.
 
-| Year | Bought | Sold | Realized P&L | Dividends | Interest | Total profit | Withdrawn |
-|---|---|---|---|---|---|---|---|
-| 2021 | ₩22.1M | ₩0.0M | ₩0.0M | ₩0.0M | ₩0.0M | **₩0.0M** | ₩0.0M |
-| 2022 | ₩18.2M | ₩0.0M | ₩0.0M | ₩0.7M | ₩0.1M | **₩0.8M** | ₩0.0M |
-| 2023 | ₩43.3M | ₩15.9M | ₩-4.3M | ₩1.8M | ₩0.0M | **₩-2.4M** | ₩0.0M |
-| 2024 | ₩22.2M | ₩72.4M | ₩22.8M | ₩0.4M | ₩0.0M | **₩23.2M** | ₩0.0M |
-| 2025 | ₩47.1M | ₩43.7M | ₩7.6M | ₩1.3M | ₩0.2M | **₩9.0M** | ₩35.0M |
-| 2026 (YTD) | ₩168.8M | ₩266.2M | ₩122.6M | ₩0.7M | ₩0.1M | **₩123.4M** | ₩50.0M |
-
-> **2024–2026 is where the record was made:** a 310-share position in **HD Hyundai Heavy Industries** bought at ~₩140K in 2023 was scaled out between ₩208K and ₩655K, and **Samsung Electronics** was traded around a core position through its 2025–26 rally.
-
-## 🏷️ By Stock
-
-| Stock | Bought | Sold | Realized | Dividends | Unrealized | Total |
-|---|---|---|---|---|---|---|
-| 삼성전자 (A005930) | ₩144.3M | ₩153.7M | ₩82.1M | ₩1.5M | ₩22.6M | **₩106.1M** |
-| HD현대중공업 (A329180) | ₩43.3M | ₩104.6M | ₩61.0M | ₩0.6M | ₩0.0M | **₩61.6M** |
-| 고려아연 (A010130) | ₩40.3M | ₩43.0M | ₩2.7M | ₩2.9M | ₩0.0M | **₩5.6M** |
-| 대한조선 (A439260) | ₩83.7M | ₩86.7M | ₩2.8M | ₩0.0M | ₩0.0M | **₩2.8M** |
-| 노타 (A486990) | ₩10.1M | ₩10.2M | ₩0.1M | ₩0.0M | ₩0.0M | **₩0.1M** |
-
-## 📌 Open Position
-
-| Stock | Shares | Avg cost | Price (2026-10-12) | Market value | Unrealized |
-|---|---|---|---|---|---|
-| 삼성전자 (A005930) | 400 | ₩182,496 | ₩239,000 | ₩95.6M | **₩22.6M (+31.0%)** |
-
-## 🗂️ Data
-
-| Path | Contents |
-|---|---|
-| [`statements/`](statements/) | Original Kiwoom Securities 종합거래내역 statements, one PDF per year (Oct → Oct), 2021–2026 |
-| [`data/Kiwoom_Transactions.xlsx`](data/Kiwoom_Transactions.xlsx) | Workbook — Summary · By Year · By Stock · Trades (with cost basis and P&amp;L) · Holdings · Cash Flows · All Transactions |
-| [`data/transactions.csv`](data/transactions.csv) | Every one of the 82 statement lines, machine-readable |
-
-## 🔍 Method
-
-- **Source of truth.** All 82 statement lines were parsed from the broker PDFs; the running cash balance reconciles to the won on every line.
-- **Realized P&amp;L** uses the average-cost method, net of commissions and securities-transaction tax. Multi-fill orders carry their costs on the final fill, as the broker books them.
-- **Total profit** = ending equity + net withdrawals − starting capital, so it does not depend on the cost method. It equals realized + unrealized + dividends + interest.
-- **IRR** is money-weighted, treating each withdrawal as a cash flow on its date.
-- **Open position** is valued at the Yahoo Finance close on 2026-10-12; the unrealized figure moves with the market.
-- **Scope.** One Kiwoom cash account, KRW equities only. Starting capital is the cash balance at the start of the first statement (no positions were held then). Past results do not guarantee future returns; nothing here is investment advice.
-
----
-
-<div align="center"><sub>By <a href="https://github.com/HyeonbinJung">Hyeonbin Jung</a> · <a href="https://www.hyeonbin.dev">hyeonbin.dev</a></sub></div>
+<p align="right"><sub>Hyeonbin Jung · <a href="https://www.hyeonbin.dev">hyeonbin.dev</a> · <a href="https://github.com/HyeonbinJung">GitHub</a></sub></p>
