@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 930" width="900" height="930" font-family='JetBrains Mono,Consolas,Menlo,monospace'>
+<rect width="900" height="930" fill="#000000"/>
+<rect width="900" height="26" fill="#ffb000"/><text x="12" y="18" font-size="12" font-weight="700" fill="#000">BENCHMARK ANALYTICS · ACCOUNT vs KOSPI / S&amp;P 500 / NASDAQ-100 · ₩ TERMS</text>
+<rect x="12" y="36" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="22" y="54" font-size="11" fill="#ffb000">RELATIVE STRENGTH vs KOSPI</text><text x="435" y="54" font-size="9.5" fill="#7a8796" text-anchor="end">account ÷ KOSPI · now 2.16x</text>
+<line x1="58" x2="431" y1="292.0" y2="292.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="295.0" font-size="9.5" fill="#7a8796" text-anchor="end">0.5x</text>
+<line x1="58" x2="431" y1="235.5" y2="235.5" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="238.5" font-size="9.5" fill="#7a8796" text-anchor="end">1.0x</text>
+<line x1="58" x2="431" y1="179.0" y2="179.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="182.0" font-size="9.5" fill="#7a8796" text-anchor="end">1.5x</text>
+<line x1="58" x2="431" y1="122.6" y2="122.6" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="125.6" font-size="9.5" fill="#7a8796" text-anchor="end">2.0x</text>
+<text x="76.7" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2022</text>
+<text x="151.2" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2023</text>
+<text x="225.8" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2024</text>
+<text x="300.5" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2025</text>
+<text x="375.1" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2026</text>
+<line x1="58" x2="431" y1="235.5" y2="235.5" stroke="#484f58"/>
+<path d="M58.0,235.5 L58.0,234.2 L64.2,235.4 L70.4,237.0 L76.7,223.9 L82.9,224.1 L89.1,221.3 L95.3,218.9 L101.5,217.0 L107.7,205.5 L113.9,213.5 L120.2,195.6 L126.4,185.4 L132.6,193.1 L138.8,202.0 L145.0,196.3 L151.2,212.9 L157.5,204.4 L163.7,210.2 L169.9,217.3 L176.1,226.6 L182.3,224.1 L188.5,230.9 L194.8,230.4 L201.0,231.0 L207.2,239.4 L213.4,228.6 L219.6,235.3 L225.8,242.1 L232.1,244.9 L238.3,246.7 L244.5,233.7 L250.7,232.4 L256.9,225.3 L263.1,191.5 L269.4,193.9 L275.6,184.1 L281.8,181.2 L288.0,148.3 L294.2,130.2 L300.5,142.0 L306.7,142.0 L312.9,133.3 L319.1,119.8 L325.3,129.0 L331.5,146.2 L337.8,120.9 L344.0,115.5 L350.2,110.3 L356.4,113.9 L362.6,124.1 L368.8,121.4 L375.1,120.4 L381.3,94.1 L387.5,88.8 L393.7,114.6 L399.9,127.1 L406.1,134.7 L412.3,109.2 L418.6,118.2 L424.8,114.6 L431.0,104.9 L431.0,235.5 Z" fill="rgba(0,210,106,.14)"/>
+<polyline points="58.0,234.2 64.2,235.4 70.4,237.0 76.7,223.9 82.9,224.1 89.1,221.3 95.3,218.9 101.5,217.0 107.7,205.5 113.9,213.5 120.2,195.6 126.4,185.4 132.6,193.1 138.8,202.0 145.0,196.3 151.2,212.9 157.5,204.4 163.7,210.2 169.9,217.3 176.1,226.6 182.3,224.1 188.5,230.9 194.8,230.4 201.0,231.0 207.2,239.4 213.4,228.6 219.6,235.3 225.8,242.1 232.1,244.9 238.3,246.7 244.5,233.7 250.7,232.4 256.9,225.3 263.1,191.5 269.4,193.9 275.6,184.1 281.8,181.2 288.0,148.3 294.2,130.2 300.5,142.0 306.7,142.0 312.9,133.3 319.1,119.8 325.3,129.0 331.5,146.2 337.8,120.9 344.0,115.5 350.2,110.3 356.4,113.9 362.6,124.1 368.8,121.4 375.1,120.4 381.3,94.1 387.5,88.8 393.7,114.6 399.9,127.1 406.1,134.7 412.3,109.2 418.6,118.2 424.8,114.6 431.0,104.9" fill="none" stroke="#00d26a" stroke-width="2.2"  stroke-linejoin="round"/>
+<rect x="455" y="36" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="465" y="54" font-size="11" fill="#ffb000">ROLLING 12M BETA &amp; CORRELATION</text><text x="878" y="54" font-size="9.5" fill="#7a8796" text-anchor="end">vs KOSPI · full-period β 0.73</text>
+<line x1="501" x2="874" y1="251.0" y2="251.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="254.0" font-size="9.5" fill="#7a8796" text-anchor="end">0.0</text>
+<line x1="501" x2="874" y1="183.7" y2="183.7" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="186.7" font-size="9.5" fill="#7a8796" text-anchor="end">0.5</text>
+<line x1="501" x2="874" y1="116.4" y2="116.4" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="119.4" font-size="9.5" fill="#7a8796" text-anchor="end">1.0</text>
+<text x="531.4" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2023</text>
+<text x="622.8" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2024</text>
+<text x="714.1" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2025</text>
+<text x="805.5" y="306" font-size="9.5" fill="#7a8796" text-anchor="middle">2026</text>
+<line x1="501" x2="874" y1="116.4" y2="116.4" stroke="#484f58" stroke-dasharray="4 3"/>
+<polyline points="501.0,180.1 508.6,177.8 516.2,182.5 523.8,173.6 531.4,186.2 539.1,190.1 546.7,193.3 554.3,196.5 561.9,201.2 569.5,221.9 577.1,224.3 584.7,190.0 592.3,195.6 600.0,189.3 607.6,171.2 615.2,173.4 622.8,152.2 630.4,144.0 638.0,142.8 645.6,161.4 653.2,157.1 660.9,151.4 668.5,175.9 676.1,175.1 683.7,179.6 691.3,193.8 698.9,233.4 706.5,221.1 714.1,254.2 721.8,248.4 729.4,241.1 737.0,236.5 744.6,253.3 752.2,264.7 759.8,254.1 767.4,277.3 775.0,255.6 782.7,217.3 790.3,172.0 797.9,165.0 805.5,144.1 813.1,143.4 820.7,136.9 828.3,143.0 835.9,139.8 843.6,134.4 851.2,128.8 858.8,129.1 866.4,129.0 874.0,128.6" fill="none" stroke="#7a8796" stroke-width="1.4" stroke-dasharray="3 3" stroke-linejoin="round"/>
+<polyline points="501.0,197.7 508.6,201.4 516.2,208.7 523.8,200.5 531.4,209.2 539.1,210.3 546.7,213.3 554.3,214.4 561.9,217.1 569.5,228.3 577.1,229.6 584.7,218.4 592.3,217.1 600.0,201.1 607.6,143.0 615.2,133.1 622.8,77.4 630.4,69.5 638.0,68.0 645.6,90.4 653.2,85.2 660.9,70.7 668.5,77.4 676.1,73.8 683.7,85.7 691.3,120.7 698.9,206.8 706.5,167.0 714.1,258.9 721.8,244.4 729.4,223.5 737.0,211.4 744.6,256.5 752.2,272.9 759.8,254.5 767.4,278.5 775.0,255.8 782.7,221.1 790.3,171.6 797.9,160.4 805.5,144.1 813.1,121.0 820.7,117.6 828.3,130.0 835.9,139.7 843.6,131.1 851.2,135.0 858.8,133.7 866.4,134.3 874.0,135.3" fill="none" stroke="#ffb000" stroke-width="2.2"  stroke-linejoin="round"/>
+<text x="507" y="78" font-size="9.5" fill="#ffb000">━ beta</text><text x="603" y="78" font-size="9.5" fill="#7a8796">━ correlation</text>
+<rect x="12" y="328" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="22" y="346" font-size="11" fill="#ffb000">ROLLING 12M SHARPE RATIO</text><text x="435" y="346" font-size="9.5" fill="#7a8796" text-anchor="end">rf 3% · account above KOSPI 34/50 windows</text>
+<line x1="58" x2="431" y1="584.0" y2="584.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="587.0" font-size="9.5" fill="#7a8796" text-anchor="end">-3</text>
+<line x1="58" x2="431" y1="559.1" y2="559.1" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="562.1" font-size="9.5" fill="#7a8796" text-anchor="end">-2</text>
+<line x1="58" x2="431" y1="534.2" y2="534.2" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="537.2" font-size="9.5" fill="#7a8796" text-anchor="end">-1</text>
+<line x1="58" x2="431" y1="509.3" y2="509.3" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="512.3" font-size="9.5" fill="#7a8796" text-anchor="end">0</text>
+<line x1="58" x2="431" y1="484.4" y2="484.4" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="487.4" font-size="9.5" fill="#7a8796" text-anchor="end">1</text>
+<line x1="58" x2="431" y1="459.6" y2="459.6" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="462.6" font-size="9.5" fill="#7a8796" text-anchor="end">2</text>
+<line x1="58" x2="431" y1="434.7" y2="434.7" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="437.7" font-size="9.5" fill="#7a8796" text-anchor="end">3</text>
+<line x1="58" x2="431" y1="409.8" y2="409.8" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="412.8" font-size="9.5" fill="#7a8796" text-anchor="end">4</text>
+<line x1="58" x2="431" y1="384.9" y2="384.9" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="387.9" font-size="9.5" fill="#7a8796" text-anchor="end">5</text>
+<line x1="58" x2="431" y1="360.0" y2="360.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="363.0" font-size="9.5" fill="#7a8796" text-anchor="end">6</text>
+<text x="88.4" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">2023</text>
+<text x="179.8" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">2024</text>
+<text x="271.1" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">2025</text>
+<text x="362.5" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">2026</text>
+<line x1="58" x2="431" y1="509.3" y2="509.3" stroke="#484f58"/>
+<polyline points="58.0,546.2 65.6,535.0 73.2,526.6 80.8,535.8 88.4,519.6 96.1,522.0 103.7,521.0 111.3,518.7 118.9,516.1 126.5,500.2 134.1,502.8 141.7,505.8 149.3,494.6 157.0,515.1 164.6,511.8 172.2,487.1 179.8,508.1 187.4,499.4 195.0,497.4 202.6,502.5 210.2,509.9 217.9,500.5 225.5,507.7 233.1,507.5 240.7,506.2 248.3,497.6 255.9,518.3 263.5,535.2 271.1,517.1 278.8,524.1 286.4,534.5 294.0,527.2 301.6,510.7 309.2,499.5 316.8,496.5 324.4,488.4 332.0,468.5 339.7,448.2 347.3,451.3 354.9,432.0 362.5,422.9 370.1,397.4 377.7,432.7 385.3,409.7 392.9,387.5 400.6,423.7 408.2,461.5 415.8,458.5 423.4,465.7 431.0,489.8" fill="none" stroke="#7a8796" stroke-width="1.4"  stroke-linejoin="round"/>
+<polyline points="58.0,509.0 65.6,503.9 73.2,496.8 80.8,510.1 88.4,513.5 96.1,508.5 103.7,516.0 111.3,521.8 118.9,528.7 126.5,518.2 134.1,521.0 141.7,553.3 149.3,553.0 157.0,563.8 164.6,527.9 172.2,523.0 179.8,528.3 187.4,531.2 195.0,528.3 202.6,516.6 210.2,513.7 217.9,505.3 225.5,487.4 233.1,489.0 240.7,481.9 248.3,463.6 255.9,465.5 263.5,457.5 271.1,437.3 278.8,438.4 286.4,435.7 294.0,438.8 301.6,434.3 309.2,442.6 316.8,437.4 324.4,407.4 332.0,393.7 339.7,364.0 347.3,431.8 354.9,428.8 362.5,405.0 370.1,379.7 377.7,418.0 385.3,417.1 392.9,386.1 400.6,418.4 408.2,453.9 415.8,457.7 423.4,465.4 431.0,486.1" fill="none" stroke="#00d26a" stroke-width="2.2"  stroke-linejoin="round"/>
+<text x="64" y="370" font-size="9.5" fill="#00d26a">━ account</text><text x="160" y="370" font-size="9.5" fill="#7a8796">━ KOSPI</text>
+<rect x="455" y="328" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="465" y="346" font-size="11" fill="#ffb000">RISK / RETURN (ANNUALIZED)</text><text x="878" y="346" font-size="9.5" fill="#7a8796" text-anchor="end">dashed: Sharpe 0.5 · 1.0</text>
+<line x1="501" x2="874" y1="584.0" y2="584.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="587.0" font-size="9.5" fill="#7a8796" text-anchor="end">-10%</text>
+<line x1="501" x2="874" y1="539.2" y2="539.2" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="542.2" font-size="9.5" fill="#7a8796" text-anchor="end">0%</text>
+<line x1="501" x2="874" y1="494.4" y2="494.4" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="497.4" font-size="9.5" fill="#7a8796" text-anchor="end">10%</text>
+<line x1="501" x2="874" y1="449.6" y2="449.6" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="452.6" font-size="9.5" fill="#7a8796" text-anchor="end">20%</text>
+<line x1="501" x2="874" y1="404.8" y2="404.8" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="407.8" font-size="9.5" fill="#7a8796" text-anchor="end">30%</text>
+<line x1="501" x2="874" y1="360.0" y2="360.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="363.0" font-size="9.5" fill="#7a8796" text-anchor="end">40%</text>
+<text x="594.2" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">10%</text>
+<text x="687.5" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">20%</text>
+<text x="780.8" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">30%</text>
+<text x="874.0" y="598" font-size="9.5" fill="#7a8796" text-anchor="middle">40%</text>
+<line x1="501.0" y1="525.8" x2="874.0" y2="436.2" stroke="#3a4654" stroke-dasharray="4 4"/>
+<line x1="501.0" y1="525.8" x2="846.0" y2="360.0" stroke="#3a4654" stroke-dasharray="4 4"/>
+<circle cx="813.1" cy="385.5" r="7" fill="#00d26a" stroke="#000000" stroke-width="1.5"/><text x="822.1" y="388.5" font-size="9.5" fill="#00d26a">ACCOUNT 34.3%</text>
+<circle cx="797.6" cy="471.3" r="5" fill="#7a8796" stroke="#000000" stroke-width="1.5"/><text x="806.6" y="474.3" font-size="9.5" fill="#7a8796">KOSPI 15.2%</text>
+<circle cx="770.7" cy="554.5" r="5" fill="#ff4d4d" stroke="#000000" stroke-width="1.5"/><text x="779.7" y="557.5" font-size="9.5" fill="#ff4d4d">KOSDAQ -3.4%</text>
+<circle cx="630.9" cy="473.1" r="5" fill="#c792ea" stroke="#000000" stroke-width="1.5"/><text x="639.9" y="476.1" font-size="9.5" fill="#c792ea">S&amp;P 500 14.8%</text>
+<circle cx="681.3" cy="457.8" r="5" fill="#5aa9ff" stroke="#000000" stroke-width="1.5"/><text x="690.3" y="460.8" font-size="9.5" fill="#5aa9ff">NASDAQ-100 18.2%</text>
+<circle cx="628.3" cy="490.2" r="5" fill="#e8edf2" stroke="#000000" stroke-width="1.5"/><text x="637.3" y="493.2" font-size="9.5" fill="#e8edf2">DOW JONES 10.9%</text>
+<text x="874" y="578" font-size="9" fill="#7a8796" text-anchor="end">x: volatility · y: CAGR</text>
+<rect x="12" y="620" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="22" y="638" font-size="11" fill="#ffb000">CALENDAR-YEAR RETURNS</text><text x="435" y="638" font-size="9.5" fill="#7a8796" text-anchor="end">2021 from Oct · 2026 YTD</text>
+<line x1="58" x2="431" y1="866.7" y2="866.7" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="869.7" font-size="9.5" fill="#7a8796" text-anchor="end">-25%</text>
+<line x1="58" x2="431" y1="820.0" y2="820.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="823.0" font-size="9.5" fill="#7a8796" text-anchor="end">0%</text>
+<line x1="58" x2="431" y1="773.3" y2="773.3" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="776.3" font-size="9.5" fill="#7a8796" text-anchor="end">25%</text>
+<line x1="58" x2="431" y1="726.7" y2="726.7" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="729.7" font-size="9.5" fill="#7a8796" text-anchor="end">50%</text>
+<line x1="58" x2="431" y1="680.0" y2="680.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="52" y="683.0" font-size="9.5" fill="#7a8796" text-anchor="end">75%</text>
+<rect x="66.7" y="820.0" width="14.8" height="4.7" fill="#00d26a" opacity=".9"/>
+<rect x="83.0" y="820.0" width="14.8" height="2.3" fill="#7a8796" opacity=".9"/>
+<rect x="99.3" y="804.9" width="14.8" height="15.1" fill="#c792ea" opacity=".9"/>
+<text x="89.1" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2021</text>
+<rect x="128.9" y="815.3" width="14.8" height="4.7" fill="#00d26a" opacity=".9"/>
+<rect x="145.2" y="820.0" width="14.8" height="46.5" fill="#7a8796" opacity=".9"/>
+<rect x="161.4" y="820.0" width="14.8" height="27.4" fill="#c792ea" opacity=".9"/>
+<text x="151.2" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2022</text>
+<rect x="191.0" y="820.0" width="14.8" height="21.9" fill="#00d26a" opacity=".9"/>
+<rect x="207.3" y="785.0" width="14.8" height="35.0" fill="#7a8796" opacity=".9"/>
+<rect x="223.6" y="768.6" width="14.8" height="51.4" fill="#c792ea" opacity=".9"/>
+<text x="213.4" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2023</text>
+<rect x="253.2" y="681.4" width="14.8" height="138.6" fill="#00d26a" opacity=".9"/>
+<rect x="269.5" y="820.0" width="14.8" height="18.0" fill="#7a8796" opacity=".9"/>
+<rect x="285.8" y="745.6" width="14.8" height="74.4" fill="#c792ea" opacity=".9"/>
+<text x="275.6" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2024</text>
+<rect x="315.4" y="665.6" width="14.8" height="154.4" fill="#00d26a" opacity=".9"/>
+<rect x="331.7" y="678.8" width="14.8" height="141.2" fill="#7a8796" opacity=".9"/>
+<rect x="347.9" y="793.8" width="14.8" height="26.2" fill="#c792ea" opacity=".9"/>
+<text x="337.7" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2025</text>
+<rect x="377.5" y="716.9" width="14.8" height="103.1" fill="#00d26a" opacity=".9"/>
+<rect x="393.8" y="736.8" width="14.8" height="83.2" fill="#7a8796" opacity=".9"/>
+<rect x="410.1" y="808.8" width="14.8" height="11.2" fill="#c792ea" opacity=".9"/>
+<text x="399.9" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">2026</text>
+<line x1="58" x2="431" y1="820.0" y2="820.0" stroke="#484f58"/>
+<text x="64" y="662" font-size="9.5" fill="#00d26a">━ account</text><text x="160" y="662" font-size="9.5" fill="#7a8796">━ KOSPI</text><text x="256" y="662" font-size="9.5" fill="#c792ea">━ S&amp;P 500 ₩</text>
+<rect x="455" y="620" width="433" height="282" fill="#0b0f14" stroke="#1d2733"/><text x="465" y="638" font-size="11" fill="#ffb000">UP / DOWN MARKET CAPTURE</text><text x="878" y="638" font-size="9.5" fill="#7a8796" text-anchor="end">ideal: up high, down low</text>
+<line x1="501" x2="874" y1="876.0" y2="876.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="879.0" font-size="9.5" fill="#7a8796" text-anchor="end">-50%</text>
+<line x1="501" x2="874" y1="851.1" y2="851.1" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="854.1" font-size="9.5" fill="#7a8796" text-anchor="end">-25%</text>
+<line x1="501" x2="874" y1="826.2" y2="826.2" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="829.2" font-size="9.5" fill="#7a8796" text-anchor="end">0%</text>
+<line x1="501" x2="874" y1="801.3" y2="801.3" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="804.3" font-size="9.5" fill="#7a8796" text-anchor="end">25%</text>
+<line x1="501" x2="874" y1="776.4" y2="776.4" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="779.4" font-size="9.5" fill="#7a8796" text-anchor="end">50%</text>
+<line x1="501" x2="874" y1="751.6" y2="751.6" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="754.6" font-size="9.5" fill="#7a8796" text-anchor="end">75%</text>
+<line x1="501" x2="874" y1="726.7" y2="726.7" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="729.7" font-size="9.5" fill="#7a8796" text-anchor="end">100%</text>
+<line x1="501" x2="874" y1="701.8" y2="701.8" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="704.8" font-size="9.5" fill="#7a8796" text-anchor="end">125%</text>
+<line x1="501" x2="874" y1="676.9" y2="676.9" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="679.9" font-size="9.5" fill="#7a8796" text-anchor="end">150%</text>
+<line x1="501" x2="874" y1="652.0" y2="652.0" stroke="#1d2733" stroke-dasharray="2 4"/><text x="495" y="655.0" font-size="9.5" fill="#7a8796" text-anchor="end">175%</text>
+<line x1="501" x2="874" y1="826.2" y2="826.2" stroke="#484f58"/>
+<line x1="501" x2="874" y1="726.7" y2="726.7" stroke="#484f58" stroke-dasharray="4 3"/>
+<rect x="517.8" y="754.8" width="28.0" height="71.4" fill="#00d26a" opacity=".9"/><text x="531.8" y="750.8" font-size="9" fill="#e8edf2" text-anchor="middle">72</text>
+<rect x="550.0" y="800.0" width="28.0" height="26.2" fill="#ff4d4d" opacity=".9"/><text x="563.9" y="796.0" font-size="9" fill="#e8edf2" text-anchor="middle">26</text>
+<text x="547.6" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">KOSPI</text>
+<rect x="611.0" y="718.9" width="28.0" height="107.3" fill="#00d26a" opacity=".9"/><text x="625.0" y="714.9" font-size="9" fill="#e8edf2" text-anchor="middle">108</text>
+<rect x="643.2" y="826.2" width="28.0" height="1.5" fill="#ff4d4d" opacity=".9"/><text x="657.2" y="838.0" font-size="9" fill="#e8edf2" text-anchor="middle">-1</text>
+<text x="640.9" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">S&amp;P 500</text>
+<rect x="704.3" y="763.4" width="28.0" height="62.8" fill="#00d26a" opacity=".9"/><text x="718.3" y="759.4" font-size="9" fill="#e8edf2" text-anchor="middle">63</text>
+<rect x="736.5" y="826.2" width="28.0" height="29.4" fill="#ff4d4d" opacity=".9"/><text x="750.4" y="866.7" font-size="9" fill="#e8edf2" text-anchor="middle">-30</text>
+<text x="734.1" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">Nasdaq-100</text>
+<rect x="797.5" y="672.9" width="28.0" height="153.3" fill="#00d26a" opacity=".9"/><text x="811.5" y="668.9" font-size="9" fill="#e8edf2" text-anchor="middle">154</text>
+<rect x="829.7" y="789.1" width="28.0" height="37.1" fill="#ff4d4d" opacity=".9"/><text x="843.7" y="785.1" font-size="9" fill="#e8edf2" text-anchor="middle">37</text>
+<text x="827.4" y="890" font-size="9.5" fill="#7a8796" text-anchor="middle">Dow Jones</text>
+<text x="507" y="662" font-size="9.5" fill="#00d26a">━ upside</text><text x="603" y="662" font-size="9.5" fill="#ff4d4d">━ downside</text>
+</svg>

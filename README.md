@@ -58,6 +58,16 @@
 
 <p align="center"><img src="assets/risk_dashboard.svg" width="900" alt="Risk dashboard: underwater curve, regression versus KOSPI, return distribution and rolling 12-month return"></p>
 
+**Largest drawdowns** (time-weighted, month-end)
+
+| # | Peak | Trough | Recovered | Depth | Months to trough | Peak → recovery |
+|---:|---|---|---|---:|---:|---:|
+| 1 | 2022-08 | 2023-10 | 2024-07 | **-32.0%** | 14 | 23 mo |
+| 2 | 2026-05 | 2026-10 | open | **-23.7%** | 5 | ongoing |
+| 3 | 2026-02 | 2026-03 | 2026-05 | **-10.4%** | 1 | 3 mo |
+| 4 | 2025-10 | 2025-11 | 2026-01 | **-8.7%** | 1 | 3 mo |
+| 5 | 2022-05 | 2022-06 | 2022-08 | **-6.7%** | 1 | 3 mo |
+
 <sub>Monthly Modified-Dietz returns on month-end NAV (cash + positions at Yahoo Finance closes), geometrically linked. Risk-free rate 3% p.a. Max drawdown trough: 2023-10. Best month 2026-02 (+33.3%), worst 2023-10 (-13.2%).</sub>
 
 ## III. Benchmark Comparison
@@ -85,6 +95,8 @@
 | Dow Jones <sub>`^DJI`</sub> | 8.2% | +49% | 14.7% | 0.36 | -20.9% | **+22.8%** | 0.90 | +23.3% | 32 / 61 |
 
 <sub>Price indices (no dividends) from Yahoo Finance over the account's monthly window. Excess = account CAGR − index CAGR; β, Jensen's α (rf 3%) and months beaten come from the account's monthly returns against each index.</sub>
+
+<p align="center"><img src="assets/benchmark_dashboard.svg" width="900" alt="Benchmark analytics: relative strength, rolling beta and Sharpe, risk/return map, calendar-year returns and up/down capture"></p>
 
 ## IV. Calendar-Year Performance
 
