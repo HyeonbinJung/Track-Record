@@ -18,6 +18,18 @@
 | ↳ cash / equities | ₩61.9M / ₩95.0M | KOSPI CAGR (same window) | 15.1% |
 | Total value (NAV + distributions) | **₩241.9M** | MOIC · DPI | **3.67x** · 1.29x |
 
+**USD view** — translated at **₩1,335.85 / $1**, the USD/KRW close on 2026-10-12 (Yahoo Finance `KRW=X`).
+
+| Capital (USD) | | Returns (USD) | |
+|---|---:|---|---:|
+| Initial capital · 14 Oct 2021 | **$49.3K** | Total P&amp;L | **$131.7K** |
+| Distributions (withdrawals) | $63.6K | USD time-weighted CAGR ¹ | **31.1%** |
+| NAV · 12-OCT-2026 | **$117.4K** | USD cumulative TWR ¹ | +286% |
+| ↳ cash / equities | $46.3K / $71.1K | KRW move vs USD, same window | -13.0% |
+| Total value (NAV + distributions) | **$181.1K** | MOIC (FX-neutral) | **3.67x** |
+
+<sub>¹ USD returns re-price each month at that month's USD/KRW close (₩1,182.13 on 14 Oct 2021 → ₩1,335.85 on 2026-10-12), so they include the currency effect. At the 2021 rate the initial capital was $55.7K. The single-rate table above is a translation only and does not include FX effects.</sub>
+
 ## II. Risk &amp; Return Statistics
 
 ```text
@@ -31,6 +43,20 @@
 │ Positive months                    36 / 61 │ Average equity exposure                74% │
 └────────────────────────────────────────────┴────────────────────────────────────────────┘
 ```
+
+```text
+┌─ DISTRIBUTION ─────────────────────────────┬─ BENCHMARK-RELATIVE ───────────────────────┐
+│ Mean monthly return                 +2.87% │ Tracking error                       25.6% │
+│ Monthly volatility                   9.66% │ Information ratio                     0.75 │
+│ Skewness                             +1.03 │ Upside capture                         72% │
+│ Excess kurtosis                      +0.96 │ Downside capture                       26% │
+│ VaR 95% (1M, historical)            -10.4% │ R-squared                             0.48 │
+│ CVaR 95% (1M, historical)           -11.6% │ Treynor ratio                         0.43 │
+│ Positive rolling-12M windows           70% │ Months beating KOSPI               33 / 61 │
+└────────────────────────────────────────────┴────────────────────────────────────────────┘
+```
+
+<p align="center"><img src="assets/risk_dashboard.svg" width="900" alt="Risk dashboard: underwater curve, regression versus KOSPI, return distribution and rolling 12-month return"></p>
 
 <sub>Monthly Modified-Dietz returns on month-end NAV (cash + positions at Yahoo Finance closes), geometrically linked. Risk-free rate 3% p.a. Max drawdown trough: 2023-10. Best month 2026-02 (+33.3%), worst 2023-10 (-13.2%).</sub>
 
@@ -91,7 +117,8 @@
 
 | File | Description |
 |---|---|
-| [`statements/`](statements/) | Kiwoom Securities 종합거래내역 — five annual statements, Oct 2021 → Oct 2026 |
+| [`statements/`](statements/) | Kiwoom Securities 종합거래내역 — five annual statements (Korean originals), Oct 2021 → Oct 2026 |
+| [`statements (EN)/`](<statements%20(EN)/>) | English translations of the same statements — identical pages and figures, labels translated in place |
 | [`data/Kiwoom_Transactions.xlsx`](data/Kiwoom_Transactions.xlsx) | Workbook · Summary · By Year · By Stock · Trades with cost basis · Holdings · Cash Flows · Monthly NAV · All Transactions |
 | [`data/transactions.csv`](data/transactions.csv) | All 82 statement lines, machine-readable |
 | [`data/monthly_nav.csv`](data/monthly_nav.csv) | Month-end cash, positions, NAV, flows, TWR and KOSPI series |
@@ -102,6 +129,30 @@
 - **NAV.** Month-end cash plus positions marked at Yahoo Finance closing prices (fills reconcile to closes within ±5%).
 - **Returns.** TWR links monthly Modified-Dietz returns, neutralizing withdrawals; IRR is money-weighted with each withdrawal dated. MOIC = (NAV + distributions) / initial capital; DPI = distributions / initial capital.
 - **Benchmark.** KOSPI price index (^KS11), not total return. Alpha is Jensen's alpha from monthly returns.
+- **Currency.** USD figures use USD/KRW closes from Yahoo Finance (`KRW=X`); see the note under the USD table.
+
+**Formulas**
+
+$$r_t=\frac{V_t-V_{t-1}-F_t}{V_{t-1}+w_tF_t},\qquad \text{TWR}=\prod_{t=1}^{T}(1+r_t)-1,\qquad \text{CAGR}=(1+\text{TWR})^{1/Y}-1$$
+
+$$\sum_{k}\frac{CF_k}{(1+\text{IRR})^{\tau_k}}=0,\qquad \text{MOIC}=\frac{\text{NAV}_T+\sum \text{Dist}}{C_0},\qquad \text{DPI}=\frac{\sum \text{Dist}}{C_0}$$
+
+$$\text{Sharpe}=\frac{\text{CAGR}-r_f}{\sigma\sqrt{12}},\qquad \alpha_J=\text{CAGR}-\big[r_f+\beta(\text{CAGR}_{\text{KOSPI}}-r_f)\big],\qquad \text{IR}=\frac{\text{CAGR}-\text{CAGR}_{\text{KOSPI}}}{\sigma(r-r_{\text{KOSPI}})\sqrt{12}}$$
+
+<sub>V = month-end NAV, F = net external flow (withdrawals negative) weighted by w, the share of the month remaining after the flow; Y = years; σ = monthly standard deviation.</sub>
+
+**Reproduce**
+
+```python
+import pandas as pd
+nav = pd.read_csv("data/monthly_nav.csv", parse_dates=["month_end"])
+r, b = nav["twr_month"], nav["kospi_month"]
+years = (nav["month_end"].iloc[-1] - pd.Timestamp("2021-10-14")).days / 365.25
+cagr = (1 + r).prod() ** (1 / years) - 1                      # ≈ 34.3%
+sharpe = (cagr - 0.03) / (r.std() * 12 ** 0.5)                # ≈ 0.94
+beta = r.cov(b) / b.var()                                    # ≈ 0.73
+max_dd = (nav["twr_index"] / nav["twr_index"].cummax() - 1).min()  # ≈ -32.0%
+```
 - **Scope.** One cash account; long-only KRW listed equities; no leverage, shorting or derivatives. The account held no positions at the first statement date.
 
 > [!NOTE]
