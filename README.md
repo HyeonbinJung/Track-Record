@@ -6,7 +6,7 @@
 
 # Track Record — Performance Tearsheet
 
-> **₩65.9M of starting capital compounded at 34.3% a year (time-weighted) — 19.2% a year ahead of the KOSPI — and turned into ₩241.9M of total value (3.67× MOIC) while ₩85.0M was distributed back out.** Every figure below reconciles to the won against the broker's own statements in [`statements/`](statements/).
+> **₩65.9M ($49.3K) of starting capital compounded at 34.3% a year time-weighted (31.1% in USD) — 19.2 percentage points a year ahead of the KOSPI and 19.6 ahead of the S&amp;P 500 — creating ₩241.9M ($181.1K) of total value, a 3.67× multiple on invested capital, of which ₩85.0M ($63.6K) has already been withdrawn.** Every KRW figure below reconciles to the won against the broker's own statements in [`statements/`](statements/); USD figures are translated at ₩1,335.85 / $1 (USD/KRW close, 2026-10-12).
 
 ## I. Key Figures
 
@@ -60,7 +60,33 @@
 
 <sub>Monthly Modified-Dietz returns on month-end NAV (cash + positions at Yahoo Finance closes), geometrically linked. Risk-free rate 3% p.a. Max drawdown trough: 2023-10. Best month 2026-02 (+33.3%), worst 2023-10 (-13.2%).</sub>
 
-## III. Calendar-Year Performance
+## III. Benchmark Comparison
+
+**KRW basis** — what a Korean investor earned holding each index unhedged (US indices converted at monthly USD/KRW closes).
+
+| | CAGR | Cumulative | Volatility | Sharpe | Max DD | Account excess p.a. | Account β | Account α | Months beaten |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Account** | **34.3%** | **+336%** | 33.5% | **0.94** | -32.0% | — | — | — | — |
+| KOSPI <sub>`^KS11`</sub> | 15.1% | +102% | 31.8% | 0.38 | -30.6% | **+19.2%** | 0.73 | +22.4% | 33 / 61 |
+| KOSDAQ <sub>`^KQ11`</sub> | -3.4% | -16% | 28.9% | -0.22 | -39.7% | **+37.7%** | 0.42 | +34.0% | 33 / 61 |
+| S&P 500 <sub>`^GSPC`</sub> | 14.8% | +99% | 13.9% | 0.84 | -14.7% | **+19.6%** | 0.67 | +23.4% | 30 / 61 |
+| Nasdaq-100 <sub>`^NDX`</sub> | 18.2% | +130% | 19.3% | 0.79 | -29.0% | **+16.1%** | 0.46 | +24.3% | 29 / 61 |
+| Dow Jones <sub>`^DJI`</sub> | 10.9% | +68% | 13.6% | 0.58 | -14.7% | **+23.4%** | 0.65 | +26.2% | 32 / 61 |
+
+**USD basis** — the account translated into dollars each month against each index in dollars.
+
+| | CAGR | Cumulative | Volatility | Sharpe | Max DD | Account excess p.a. | Account β | Account α | Months beaten |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Account** | **31.1%** | **+286%** | 35.0% | **0.80** | -35.9% | — | — | — | — |
+| KOSPI <sub>`^KS11`</sub> | 12.4% | +79% | 35.1% | 0.27 | -40.9% | **+18.7%** | 0.73 | +21.2% | 33 / 61 |
+| KOSDAQ <sub>`^KQ11`</sub> | -5.8% | -26% | 33.4% | -0.26 | -46.8% | **+36.8%** | 0.49 | +32.3% | 33 / 61 |
+| S&P 500 <sub>`^GSPC`</sub> | 12.0% | +76% | 15.3% | 0.59 | -24.8% | **+19.1%** | 0.88 | +20.1% | 30 / 61 |
+| Nasdaq-100 <sub>`^NDX`</sub> | 15.3% | +104% | 20.5% | 0.60 | -33.0% | **+15.7%** | 0.60 | +20.7% | 29 / 61 |
+| Dow Jones <sub>`^DJI`</sub> | 8.2% | +49% | 14.7% | 0.36 | -20.9% | **+22.8%** | 0.90 | +23.3% | 32 / 61 |
+
+<sub>Price indices (no dividends) from Yahoo Finance over the account's monthly window. Excess = account CAGR − index CAGR; β, Jensen's α (rf 3%) and months beaten come from the account's monthly returns against each index.</sub>
+
+## IV. Calendar-Year Performance
 
 | Year | Account (TWR) | KOSPI | Active return | Realized P&amp;L | Dividends + interest | Turnover |
 |---|---:|---:|---:|---:|---:|---:|
@@ -73,7 +99,7 @@
 
 <p align="center"><img src="assets/monthly_returns.svg" alt="Monthly returns heatmap with yearly totals and KOSPI"></p>
 
-## IV. P&amp;L Attribution by Position
+## V. P&amp;L Attribution by Position
 
 | Position | Ticker | Realized | Dividends | Unrealized | Total P&amp;L | Share of P&amp;L |
 |---|---|---:|---:|---:|---:|---:|
@@ -86,7 +112,7 @@
 
 <sub>Plus ₩0.4M of interest on idle cash. Realized P&amp;L uses average cost, net of commissions and transaction tax.</sub>
 
-## V. Trading &amp; Execution
+## VI. Trading &amp; Execution
 
 ```text
 ┌─ TRADING ──────────────────────────────────┬─ EXECUTION ────────────────────────────────┐
@@ -106,14 +132,14 @@
 
 > **The defining trade.** 310 shares of **HD Hyundai Heavy Industries** bought at **₩139,800** in July 2023 and scaled out in eight tranches between **₩208,000** and **₩655,000** — ₩61.0M realized on a ₩43.3M position.
 
-## VI. Current Exposure · 12-OCT-2026
+## VII. Current Exposure · 12-OCT-2026
 
 | Position | Ticker | Shares | Avg cost | Last | Market value | % of NAV | Unrealized |
 |---|---|---:|---:|---:|---:|---:|---:|
 | Samsung Electronics | `005930 KS` | 400 | ₩182,496 | ₩237,500 | ₩95.0M | 61% | **₩22.0M (+30.1%)** |
 | Cash (KRW) | | | | | ₩61.9M | 39% | |
 
-## VII. Data Room
+## VIII. Data Room
 
 | File | Description |
 |---|---|
@@ -123,7 +149,7 @@
 | [`data/transactions.csv`](data/transactions.csv) | All 82 statement lines, machine-readable |
 | [`data/monthly_nav.csv`](data/monthly_nav.csv) | Month-end cash, positions, NAV, flows, TWR and KOSPI series |
 
-## VIII. Methodology &amp; Disclosures
+## IX. Methodology &amp; Disclosures
 
 - **Reconciliation.** All 82 broker lines were parsed; the running cash balance matches the statement on every line.
 - **NAV.** Month-end cash plus positions marked at Yahoo Finance closing prices (fills reconcile to closes within ±5%).
